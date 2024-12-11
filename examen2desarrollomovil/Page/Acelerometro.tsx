@@ -71,12 +71,12 @@ export default function Acelerometro() {
     <View style={style.container}>
       
       <View style={[
-            style.circulo,
+            style.circulo,            
             {
                 left: pocisionCirculo.x,
                 top: pocisionCirculo.y,
                 right: pocisionCirculo.z,
-                backgroundColor: color
+                backgroundColor: color,
             }
         ]
       
